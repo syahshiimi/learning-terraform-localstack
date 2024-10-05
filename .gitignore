@@ -1,0 +1,12 @@
+# Don't commit volumes
+/volume
+
+# Don't commit terraform packages.
+.terraform/
+
+# Don't commit tf state
+*.tfstate
+
+# Don't commit .env files
+*.env
+
